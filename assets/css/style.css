@@ -45,11 +45,14 @@ body {
 }
 
 .section-text {
-    height: 600px;
-    width: 50%;
-    /* font-style: Dancing Script, sans-serif; */
-    text-align: center;
-    font-size: 2em;
+    margin: auto;
+    font-family: 'Dancing Script', sans-serif;
+    font-weight: 500;
+    font-size: 3em;
+    /* border-bottom: 2px solid rgb(28, 187, 28); */
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-decoration-thickness: 2px;
     color: rgb(28, 187, 28);
 }
 
