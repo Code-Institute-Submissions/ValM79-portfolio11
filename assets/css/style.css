@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -14,18 +14,21 @@ body {
 /* Section styling */
 
 .conteiner {
+    height: 600px;
+    width: 100%;
     display: flex;
 }
 
-.section-conteiner {
-    height: 600px;
-    width: 100%;
-}
-
-.section-image {
-    background: url('../images/women\ in\ flower\ hope.jpg') center center no-repeat;
+.image-conteiner {
+    overflow: hidden;
     height: 600px;
     width: 50%;
+}
+
+.shop-image {
+    background: url('../images/women\ in\ flower\ hope.jpg') center center no-repeat;
+    height: 600px;
+    width: 100%;
     animation-name: section-image;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -35,18 +38,18 @@ body {
     from {
         transform: scale(1);
     }
+
     to {
         transform: scale(1.1);
     }
 }
 
 .section-text {
-    height: 120px;
+    height: 600px;
     width: 50%;
-    font-style: Dancing Script, sans-serif;
+    /* font-style: Dancing Script, sans-serif; */
     text-align: center;
     font-size: 2em;
-    padding: 50px 0;
     color: rgb(28, 187, 28);
 }
 
@@ -57,17 +60,17 @@ footer {
     width: 100%;
     background: #000;
     position: absolute;
-    border: 2px solid red;
 }
 
 .footer-content {
-    border: 2px solid yellow;
+
     display: flex;
     height: inherit;
     justify-content: center;
     align-items: center;
+    list-style: none;
     gap: 15em;
-    
+
 }
 
 .footer-content i {
@@ -80,10 +83,10 @@ footer {
 }
 
 @media screen and (max-width: 1200px) {
-    .conteiner > div {
-    width: 100%;
-    clear: both;
-    padding: 0;
-    height: 350px;
+    .conteiner>div {
+        width: 100%;
+        clear: both;
+        padding: 0;
+        height: 350px;
     }
 }
