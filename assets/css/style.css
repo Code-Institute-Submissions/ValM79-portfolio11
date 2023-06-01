@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=Dancing+Script&family=Josefin+Sans&family=Open+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Courier+Prime:ital@1&family=Dancing+Script&family=Josefin+Sans&family=Open+Sans:ital@1&display=swap');
 
 * {
     margin: 0;
@@ -13,7 +13,7 @@ body {
     position: relative;
 }
 
-/* Styling header */
+/* Header section styling */
 
 header {
     height: 100px;
@@ -30,15 +30,15 @@ header a {
     color: #fff;
 }
 
-header > a :hover {
+header>a :hover {
     color: rgb(28, 187, 28);
 }
 
-.nav-links a{
+.nav-links a {
     color: #fff;
 }
 
-.nav-links{
+.nav-links {
     display: flex;
     justify-content: space-between;
     font-size: 26px;
@@ -49,11 +49,12 @@ header > a :hover {
     color: rgb(28, 187, 28);
     border-bottom: 1px solid rgb(28, 187, 28);
 }
+
 .active {
     border-bottom: 1px solid #fff;
 }
 
-/* Section styling */
+/* Home section styling */
 
 .conteiner {
     height: 600px;
@@ -65,6 +66,7 @@ header > a :hover {
     overflow: hidden;
     height: 600px;
     width: 50%;
+    position: relative;
 }
 
 .shop-image {
@@ -91,14 +93,106 @@ header > a :hover {
     font-family: 'Dancing Script', sans-serif;
     font-weight: 500;
     font-size: 3em;
-    /* border-bottom: 2px solid rgb(28, 187, 28); */
     text-decoration: underline;
     text-underline-offset: 15px;
     text-decoration-thickness: 2px;
     color: rgb(28, 187, 28);
 }
 
-/* Footer styling */
+.image-text {
+    padding: 1em 2em;
+    background-color: rgba(60, 60, 60, 0.6);
+    color: #fff;
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.image-text>p {
+    font-family: 'Caveat', sans-serif;
+    word-spacing: 5px;
+}
+
+/* Order page styling */
+
+.order-contaner {
+    background: url("/assets/images/3306857.jpg")center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    font-size: 1.5em;
+
+}
+
+
+.form {
+    margin: 50px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    right: 2em;
+    padding: 20px;
+    accent-color: rgb(28, 187, 28);
+}
+
+.form>h2 {
+    margin-bottom: 20px;
+}
+
+.form>h2:hover {
+    color: rgb(28, 187, 28);
+
+}
+
+.form_details {
+    background: transparent;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.form_details:hover {
+    border-color: rgb(28, 187, 28);
+    cursor: pointer;
+}
+
+.flower, .flowers {
+    margin-bottom: 10px;
+}
+
+
+
+.green:hover {
+    color: rgb(28, 187, 28);
+}
+
+.submit_button {
+    margin-top: 30px;
+    border-radius: 30px;
+    padding: 10px 32px;
+    text-align: center;
+    font-size: 1em;
+    background-color: rgb(28, 187, 28);
+    color: #fff;
+    display: block;
+}
+
+.submit_button:hover {
+    background-color: rgb(243, 247, 22);
+    color: #000;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+/* Footer section styling */
 
 footer {
     height: 120px;
@@ -127,10 +221,3 @@ footer {
 }
 
 @media screen and (max-width: 1200px) {
-    .conteiner>div {
-        width: 100%;
-        clear: both;
-        padding: 0;
-        height: 350px;
-    }
-}
