@@ -19,39 +19,40 @@ header {
     height: 100px;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     font-size: 2em;
     background-color: #000;
 }
 
 
-header a {
+.logo {
     color: #fff;
 }
 
-header>a :hover {
+.logo:hover {
     color: rgb(28, 187, 28);
 }
 
 .nav-links a {
     color: #fff;
+    margin-right: 40px;
 }
 
 .nav-links {
     display: flex;
-    justify-content: space-between;
     font-size: 26px;
-    width: 30vw;
 }
 
 .nav-links :hover {
     color: rgb(28, 187, 28);
-    border-bottom: 1px solid rgb(28, 187, 28);
+    text-decoration: underline 2px solid rgb(28, 187, 28);
+    text-underline-offset: 8px;
 }
 
 .active {
-    border-bottom: 1px solid #fff;
+    text-decoration: underline 2px solid #fff;
+    text-underline-offset: 8px;
 }
 
 /* Home section styling */
@@ -62,7 +63,7 @@ header>a :hover {
     display: flex;
 }
 
-.image-conteiner {
+.image-container {
     overflow: hidden;
     height: 600px;
     width: 50%;
@@ -89,7 +90,6 @@ header>a :hover {
 }
 
 .section-text {
-    margin: auto;
     font-family: 'Dancing Script', sans-serif;
     font-weight: 500;
     font-size: 3em;
@@ -97,6 +97,19 @@ header>a :hover {
     text-underline-offset: 15px;
     text-decoration-thickness: 2px;
     color: rgb(28, 187, 28);
+    border: 1px solid red;
+    display: inline-block;
+    margin: auto;
+    padding: 1em 1em;
+}
+
+.text_container {
+    height: 600px;
+    width: 50%;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    align-content: center;
 }
 
 .image-text {
@@ -220,4 +233,24 @@ footer {
     color: rgb(58, 12, 242);
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
+
+    .conteiner {
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+    }
+
+        .image-container {
+            width: 100%;
+        }
+        .shop-image {
+            width: 100%;
+        }
+        .text_container{
+            width: 100%;
+        }
+
+
+}
+
