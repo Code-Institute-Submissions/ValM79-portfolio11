@@ -16,10 +16,10 @@ body {
 /* Header section styling */
 
 header {
-    height: 100px;
+    min-height: 100px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     font-size: 2em;
     background-color: #000;
@@ -36,12 +36,12 @@ header {
 
 .nav-links a {
     color: #fff;
-    margin-right: 40px;
+    margin-right: 3rem;
+    font-size: 1.5rem;
 }
 
 .nav-links {
     display: flex;
-    font-size: 26px;
 }
 
 .nav-links :hover {
@@ -97,7 +97,6 @@ header {
     text-underline-offset: 15px;
     text-decoration-thickness: 2px;
     color: rgb(28, 187, 28);
-    border: 1px solid red;
     display: inline-block;
     margin: auto;
     padding: 1em 1em;
@@ -106,13 +105,13 @@ header {
 .text_container {
     height: 600px;
     width: 50%;
-    border: 1px solid red;
     display: flex;
     align-items: center;
     align-content: center;
 }
 
 .image-text {
+    border: 1px solid red;
     padding: 1em 2em;
     background-color: rgba(60, 60, 60, 0.6);
     color: #fff;
@@ -249,6 +248,11 @@ footer {
         }
         .text_container{
             width: 100%;
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
         }
 
 
