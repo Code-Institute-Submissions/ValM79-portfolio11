@@ -204,7 +204,6 @@ header {
 /* About us page style */
 
 .aboutus_image {
-    border: 1px solid red;
     background: url('/assets/images/pexels-theglory-302588.jpg') center center no-repeat;
     background-size: cover;
     height: 100vh;
@@ -212,8 +211,7 @@ header {
 }
 
 .aboutus-container {
-    margin: 5.5rem 0 0 4rem;
-    /* height: 30rem; */
+    margin: 3rem 0 0 4rem;
     max-width: 400px;
     background: rgba(60, 60, 60, 0.8);
     padding: 20px;
@@ -232,9 +230,9 @@ header {
 }
 
 .aboutus-list li{
+    font-family: 'Courier Prime', sans-serif;
     color: rgb(28, 187, 28);
-    /* line-height: 20px; */
-    margin: 20px 0 0 15px;
+    margin: 15px 0 0 15px;
     list-style-type: disc;
 }
 
@@ -243,15 +241,15 @@ caption {
 }
 
 caption, th, td {
-    padding: 1rem;
-
+    padding: .5rem;
 }
 
 .aboutus-table {
-    border: 1px solid red;
     color: rgb(28, 187, 28);
     margin-top: 20px;
     text-align: left;
+    text-decoration: underline;
+    text-underline-offset: .5rem;
 }
 
 
@@ -336,9 +334,9 @@ footer {
     }
     .text_container {
         text-align: center;
-
     }
 
+    
     footer {
         display: flex;
         flex-direction: column;
@@ -347,5 +345,21 @@ footer {
     .footer-bottom {
         height: 1.5rem;
     }
+    
+}
 
+@media screen and (max-width: 500px) {
+
+    .aboutus-header {
+        text-align: center;
+    }
+    
+    caption h3 {
+        text-align: center;
+    }
+    
+    .aboutus-table, th, td {
+        text-decoration: none;
+    }
+    
 }
