@@ -1,39 +1,53 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-Welcome,
-
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
-
-## Codeanywhere Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
+#Flowers Shop
 ---
+Flower shop is a website for a flower shop based in Dublin City Center it allows users to find information on the shop, order flowers and visit the social media pages of the shop.
 
-Happy coding!
+![Alt text](image-6.png) 
+
+## Features
+
+### Site wide
+
+- Navigation Menu 
+    - Contains links to the home page, order and about us page
+    - Allows users to easily navigate 
+
+    ![Alt text](image-1.png)
+
+- Footer
+    - This section contains link icons to the social media pages of the flower shop 
+    - It also contains the address and phoe number of the flower shop
+
+    ![Alt text](image-2.png)
+
+- Favicon
+    - A site wide favicon of a sunflower was implemented.
+    - This will allow users to easily navigate to the page if they have multiple tabs open.
+
+## Landing Page
+- Hero Image  
+    - This section contains an image of one of the staff working and an overlay text of the name of the shop and the logo
+    - This will show the user what the website is about and brings some life to the page
+
+![Alt text](image-7.png)
+
+- Hero Text
+    - This gives the name of the flower shop giving the site more context
+
+![Alt text](image-3.png)
+
+## Order Page 
+
+- Order Form
+    - This section contains a form that will collect users personal information and also what quantity of flowers they would like.
+
+
+![Alt text](image-5.png)
+
+- On successful submission of the order form, the user will be navigated to submit.html displaying a success message and home button.
+
+## About Us Page
+
+- About us page will provide the user with general information of the shop and services providen.
+
+![Alt text](image-4.png)
