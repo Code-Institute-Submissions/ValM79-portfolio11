@@ -58,14 +58,14 @@ header {
 /* Home section styling */
 
 .conteiner {
-    min-height: 700px;
+    min-height: 800px;
     width: 100%;
     display: flex;
 }
 
 .image-container {
     overflow: hidden;
-    height: 700px;
+    height: 800px;
     width: 50%;
     position: relative;
 }
@@ -73,7 +73,7 @@ header {
 .shop-image {
     background: url('../images/women-in-flower-hope.jpg') center center no-repeat;
     background-size: cover;
-    min-height: 700px;
+    min-height: 800px;
     width: 100%;
     animation-name: section-image;
     animation-duration: 5s;
@@ -111,7 +111,7 @@ header {
 
 
 .text-container {
-    min-height: 700px;
+    min-height: 800px;
     width: 50%;
     display: flex;
     align-items: center;
