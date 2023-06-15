@@ -61,7 +61,7 @@ A link to the website can be found [Here](https://github.com/ValM79/portfolio1/d
 
 - On successful submission of the order form, the user will be navigated to submit.html displaying a success message and home button.
 
-ADD IMAGE OF SUCCESS PAGE
+![Success page image](/docs/images/succss-page-image.png)
 
 ### About Us Page
 
@@ -185,16 +185,18 @@ Testing was conducted in order to ensure:
 - HTML
     - There some errors and warnings were found when passing through the official W3C validator.
 
-  ![Validator home page test](/docs/images/index-validaitor-test.png)
+  ![Validator Home page test](/docs/images/index-validaitor-test.png)
 
-  ![Alt text](image.png)
+  ![Validator Order page test](/docs/images/order-validaitor-test.png)
 
-  ![Alt text](image-1.png)
+  ![Validator Abouot Us page test](/docs/images/about-us-validaitor-test.png)
+
+  ![Validator Submit page test](/docs/images/submit-validaitor-test.png)
 
 - CSS
      - No errors or warnings were found when passing through the official W3C validator.
 
-     PHOTOS
+    ![CSS validator test](/docs/images/css-validaitor-test.png)
 
 
 
