@@ -189,6 +189,8 @@ Testing was conducted in order to ensure:
 
   ![Alt text](image.png)
 
+  ![Alt text](image-1.png)
+
 - CSS
      - No errors or warnings were found when passing through the official W3C validator.
 
